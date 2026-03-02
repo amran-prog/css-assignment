@@ -1,5 +1,12 @@
-footer {
-    margin-top: 30px;
-    font-weight: bold;
-    color: darkred;
+.p3 {
+   color: purple;
+   text-decoration: underline;
+}
+
+.highlight3 {
+   color: brown;
+}
+
+.building3 {
+   color: purple;
 }
