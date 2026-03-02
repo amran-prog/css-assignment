@@ -18,3 +18,21 @@
 .building3 {
    color: purple;
 }
+/* Make all tables clean and with borders */
+table {
+   width: 90%;
+   margin: 20px auto;
+   border-collapse: collapse;
+   border: 2px solid red;
+}
+
+th, td {
+   border: 1px solid red;
+   padding: 8px;
+}
+
+/* Fix lists alignment */
+ul, ol {
+   text-align: left;
+   display: inline-block;
+}
