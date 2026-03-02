@@ -41,6 +41,17 @@ ul, ol {
    text-align: left;
    display: inline-block;
 }
+.list-section {
+   width: 80%;
+   margin: 20px auto;
+   text-align: center;
+}
+
+.list-section ul,
+.list-section ol {
+   text-align: left;
+   display: inline-block;
+}
 
 /* Add spacing between items */
 li {
