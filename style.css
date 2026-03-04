@@ -57,3 +57,12 @@ ul, ol {
 li {
    margin-bottom: 5px;
 }
+.recipe-steps {
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.recipe-steps p {
+    text-align: center;
+}
