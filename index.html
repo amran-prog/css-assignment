@@ -48,7 +48,21 @@
       .building2 {
          color: darkorange;
       }
+.media-wrapper {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
+.container {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
    </style>
 
    <!-- EXTERNAL CSS -->
@@ -71,36 +85,36 @@ In this site you will find delicious meals to cook at home. These recipes are ea
 <h3>Delicious Food Images</h3>
 
 <!-- 5 IMAGE CONTAINERS -->
-<div class="container">   
-<img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Fresh salad bowl">
-</div>
+<div class="media-wrapper">
 
-<div class="container">  
-<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Pasta dish">
-</div>
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c">
+    </div>
 
-<div class="container">
-<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061" alt="Avocado toast">
-</div>
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
+    </div>
 
-<div class="container">
-<img src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9" alt="Burger with fries">
-</div>
+    <div class="container">
+        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061">
+    </div>
 
-<div class="container">
-<img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0" alt="Pancakes">
-</div>
+    <div class="container">
+        <iframe width="100%" height="200"
+        src="https://www.youtube.com/embed/sGZ8wRh3OXo"
+        frameborder="0"
+        allowfullscreen></iframe>
+    </div>
 
-<!-- YOUTUBE VIDEO -->
-<div class="container">
-<iframe width="100%" height="200"
-src="https://www.youtube.com/embed/sGZ8wRh3OXo"
-frameborder="0"
-allowfullscreen>
-</iframe>
-</div>
+    <div class="container">
+        <iframe width="100%" height="200"
+        src="https://www.youtube.com/embed/yde2metFGpo"
+        frameborder="0"
+        allowfullscreen></iframe>
+    </div>
 
-<h4>How to make chicken</h4>
+</div>
+   <h4>How to make chicken</h4>
 
 <div class="container">
 <iframe width="100%" height="200"
@@ -322,7 +336,7 @@ Cooking is not just about ingredients and measurements; it’s about love, creat
 
   <h3>Recipe Steps</h3>
 
-<div style="width:80%; margin:20px auto; text-align:left;">
+<div class="recipe-steps">
 
 <h4>Cinnamon Chicken Preparation</h4>
 <p>
