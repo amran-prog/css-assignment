@@ -2,14 +2,9 @@
 <html>
 <head>
    <title>My Food Recipe</title>
- <a href="paragraph.html">Paragraph Assignment</a>
-<br><br>
- <a href="classes_and_ids.html">Classes and Ids</a>
- <br><br>
- <a href="tables.html">Tables</a>
- <br><br>
- <a href="contact.html">Contact </a>
-<!-- INTERNAL CSS -->
+
+   <link rel="stylesheet" href="style.css">
+
    <style>
        body { 
          background-color: lightblue;
@@ -17,16 +12,14 @@
          font-family: Arial, sans-serif;
       }
 
-          img, iframe {
+      img, iframe {
          width: 100%;
          height: 200px;
       }
 
-      /* RECIPE STEPS CENTER */
       .recipe-steps {
          width: 70%;
          margin: 20px auto;
-         text-align: center;
       }
 
       blockquote {
@@ -36,26 +29,9 @@
          background-color: #f8f8f8;
          border-left: 6px solid gold;
          font-style: italic;
-         text-align: center;
          font-size: 20px;
       }
 
-      /* Paragraph 2 - Internal */
-      .p2 {
-         color: orange;
-         font-weight: bold;
-      }
-
-      /* Highlight 2 - Internal */
-      .highlight2 {
-         color: green;
-      }
-
-      /* Building 2 - Internal */
-      .building2 {
-         color: darkorange;
-      }
-      /* FLEX WRAPPER FOR IMAGES & VIDEOS */
       .media-wrapper {
          width: 90%;
          margin: 20px auto;
@@ -65,49 +41,60 @@
          gap: 20px;
       }
 
-  .container {
+      .container {
          width: 250px;
          padding: 10px;
          border: 2px solid black;
          background-color: white;
       }
 
-   </style>
+      /* NAVBAR */
+      nav {
+         background-color: darkblue;
+         padding: 10px;
+      }
 
-   <!-- EXTERNAL CSS -->
-   <link rel="stylesheet" href="style.css">
+      nav a {
+         color: white;
+         margin: 10px;
+         text-decoration: none;
+         font-weight: bold;
+      }
+   </style>
 </head>
 
 <body>
 
-<!-- INLINE CSS -->
-   <h1 style="text-align:center; color:darkblue;">
-       "My Food Recipe"
-   </h1>
+<!-- ✅ NAVBAR (FIXED) -->
+<nav>
+ <a href="index.html">Home</a>
+ <a href="gallery.html">Gallery</a>
+ <a href="tables.html">Tables</a>
+ <a href="paragraph.html">Paragraph</a>
+ <a href="classes_and_ids.html">Classes</a>
+</nav>
+
+<h1 style="color:darkblue;">"My Food Recipe"</h1>
 
 <h2>Welcome to My Food Recipe Website</h2>
 
 <p>
-In this site you will find delicious meals to cook at home. These recipes are easy to follow and perfect for beginners who want to improve their cooking skills.
+In this site you will find delicious meals to cook at home.
 </p>
 
-    <hr>
-<h9>Food Recipes</h9>
+<hr>
+
+<h3>Food Recipes</h3>
 
 <p><b>Cinnamon Chicken is a sweet and spicy dish loved by many.</b></p>
-
 <p><i>Sushi is a traditional Japanese food made with rice and fillings.</i></p>
-
 <p><u>An omelet is a quick and healthy egg-based meal.</u></p>
 
 <p>This recipe was updated on 15<sup>th</sup> January 2026.</p>
-
 <p>Use H<sub>2</sub>O when mixing spices and cook at temperature &gt; 160°C.</p>
 
 <p><strike>Do not use stale chicken or old eggs.</strike></p>
-
 <p><mark>Fresh ingredients improve the taste of every recipe.</mark></p>
-
 <p><q>Good food brings people together.</q></p>
 
 <blockquote>
@@ -116,37 +103,37 @@ Cooking is not just about ingredients and measurements; it’s about love, creat
 
 <hr>
 
-  <h3>Recipe Steps</h3>
+<h3>Recipe Steps</h3>
 
 <div class="recipe-steps">
 
-<h4>Cinnamon Chicken Preparation</h4>
+<h4>Cinnamon Chicken</h4>
 <p>
-Step 1: Marinate the chicken with cinnamon and spices.<br>
-Step 2: Let it rest for 10 minutes.<br>
-Step 3: Cook until fully done.
+Step 1: Marinate<br>
+Step 2: Rest<br>
+Step 3: Cook
 </p>
 
 <hr>
 
-<h4>Sushi Preparation</h4>
+<h4>Sushi</h4>
 <p>
-Step 1: Prepare and season the rice.<br>
-Step 2: Add fillings like vegetables or fish.<br>
-Step 3: Roll and slice carefully.
+Step 1: Rice<br>
+Step 2: Fillings<br>
+Step 3: Roll
 </p>
 
 <hr>
 
-<h4>Omelet Preparation</h4>
+<h4>Omelet</h4>
 <p>
-Step 1: Beat the eggs in a bowl.<br>
-Step 2: Heat the pan and add oil.<br>
-Step 3: Pour eggs and cook evenly.
+Step 1: Beat eggs<br>
+Step 2: Heat pan<br>
+Step 3: Cook
 </p>
 
 </div>
-   <!-- Line 14: Lists -->
+    <!-- Line 14: Lists -->
    <section class="list-section">
 
 <h3>Unordered List – Ingredients</h3>
