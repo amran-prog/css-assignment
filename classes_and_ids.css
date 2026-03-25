@@ -43,3 +43,41 @@ body{
 .p6{
     color: darkgreen;
 }
+/* NAVBAR (same for all pages) */
+nav {
+    background-color: darkblue;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* PAGE SPACING */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* CENTER MAIN CONTENT */
+.content {
+    width: 80%;
+    margin: 20px auto;
+}
